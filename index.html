@@ -7,18 +7,48 @@
         <title>js events</title>
     </head>
     <body>
+        <h1>helllo ! welcome </h1>
         <h1 id="demo"></h1>
-
+        <p class="ok"></p>
+        <!--
+            on right click event (oncontextmenu)
+            this event calls a funcion on the right click
+        -->
+        <button  oncontextmenu="hello3()" >click</button>
+        <br><br>
         <!-- on click event (onclick)
         this event calls a function on click -->
         <button onclick="hello()">click me</button>
 
+        <br><br>
         <!-- double click event (ondblclick)
         this one calls a function on double click-->
         <button ondblclick="hello2('anjali','rathor')">click me twice</button>
 
-        
-        
+        <!--
+            same for other events-
+
+            mouse hover (onmouseenter),
+            mouse out (onmouseout),
+            mouse down (onmousedown),
+            mouse up (onmouseup),
+            key press (onkeypress),
+            key up (onkeyup),
+            laod (onload),
+            unload (onunload),
+            resize (onresize),
+            scroll(onscroll)
+        -->
+
+        <br><br>
+        <button onmouseenter="hello4()">mouse hover</button>
+
+        <br><br>
+        <button onmouseenter="hello5()">mouse down</button>
+
+        <br><br>
+        <button onmouseenter="hello6()">mouse up</button>
+
         <script src="./js/script.js"></script>
     </body>
 </html>
