@@ -29,16 +29,27 @@ document.querySelector('p.ok').innerHTML= 'please right click here';
 
 // this function is for mouse hover event
 function hello4(){
-    alert(' you just moved your curser')
+    alert(' you just hovered your curser')
+}
+
+// this function is for mouse out event
+function hello5(){
+    alert("hey there,you just moved your curser")
+   //document.write('<h1> hey there</h1>')
 }
 
 // this function is for mouse down event
-function hello5(){
-    alert("hey there")
-    //document.write('<h1> hey there</h1>')
+function hello6(){
+    alert('helllooo,welcome.')
 }
 
 // this function is for mouse up event
-function hello6(){
+function hello7(){
     alert('ohhh you again!!!')
+}
+
+
+//this one is for keypress event
+function hello8(){
+    confirm('Are you sure you want to enter website.')
 }
